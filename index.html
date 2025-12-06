@@ -53,11 +53,22 @@
 
 
     <header class="mobile-nav">
+        <div>
+            <img src="images/lut-logo.png" alt="lutful logo" width="40px">
+        </div>
 
         <nav class="mobile-nav-links">
-            <i class="fa-solid fa-bars" style="color: #0000FF; font-size: 1.5rem;"></i>
+            <i onclick="show()" class="fa-solid fa-bars show-nav"
+                style="color: #0000FF; font-size: 1.5rem; cursor: pointer;"></i>
 
         </nav>
+        <ul class="mobile-links">
+            <i onclick="hide()" class="fa-solid fa-xmark" style="width: 2rem; cursor: pointer;"></i>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#about-sec">About</a></li>
+            <li><a href="#service-sec">Service</a></li>
+            <li><a href="assets/contact.html">Contact</a></li>
+        </ul>
     </header>
 
     <section>
@@ -82,26 +93,31 @@
                 </p>
                 <br>
 
+                <a href="mailto:hammeda582@gmail.com" target="_blank">
+                    <div class="btn-gradient mobile-contact-btn">
+                        <div class="inner-gradient mobile-contact-btn">
+                            <span>
+                                <!-- <i class="fa-regular fa-envelope"></i> -->
+                                <i class="fa-solid fa-arrow-left-long" style="color: white;"></i>
 
-                <div class="btn-gradient">
-                    <div class="inner-gradient">
-                        <span style="margin:2px;">
-                            <!-- <i class="fa-regular fa-envelope"></i> -->
-                            <i class="fa-solid fa-arrow-left-long" style="color: white;"></i>
-
-                        </span>Email Us
+                            </span> <span>Email Us</span>
+                        </div>
                     </div>
-                </div>
+                </a>
 
-                <div class="btn-gradient">
-                    <div class="inner-gradient">
-                        <span style="margin: 2px;">
-                            <!-- <i class="fa-regular fa-address-card"></i> -->
-                        </span>Get In-touch
-                        <i class="fa-solid fa-arrow-right-long" style="color: white;"></i>
+                <a href="https://wa.me/+2348164438077" target="_blank">
+                    <div class="btn-gradient mobile-contact-btn mobile-btn-margin">
+                        <div class="inner-gradient">
+                            <span>
+                                WhatsApp us
+                                <!-- <i class="fa-regular fa-address-card"></i> -->
+                            </span>
+                            <i class="fa-solid fa-arrow-right-long" style="color: white;"></i>
 
+                        </div>
                     </div>
-                </div>
+                </a>
+
                 <br>
 
 
@@ -113,10 +129,14 @@
         <h3 id="tech-tools">- Technologies We Use -</h3>
 
         <div class="social-links">
-            <i class="fa-brands fa-facebook" style="color: blue;"></i> <br>
+            <a href="https://web.facebook.com/lutfuldig" target="_blank"> <i class="fa-brands fa-facebook" style="color: blue;"></i>
+
+            </a><br>
+            <a href="https://wa.me/+2348164438077"></a>
             <i class="fa-brands fa-whatsapp" style="color: green;"></i> <br>
             <i class="fa-brands fa-linkedin"></i> <br>
-            <i class="fa-brands fa-github"></i>
+            <a href="https://github.com/hammedlateef" target="_blank"><i class="fa-brands fa-github"></i></a>
+
         </div>
     </section>
 
@@ -433,6 +453,7 @@
 
         <p style="text-align: center;">Developed By <b>Lutful Digit &copy; 2025</b></p>
     </footer>
+    <script src="index.js"></script>
 </body>
 
 </html>

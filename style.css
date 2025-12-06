@@ -127,19 +127,21 @@ a:active {
     height: 50px;
     display: inline-block;
     margin-right: 10px;
+
 }
 
 .inner-gradient {
     background-color: var(--pri-c);
     height: 100%;
     width: 100%;
-    align-content: center;
-    text-align: center; 
     border-radius: 8px;
     padding: 4px;
     cursor: pointer;
     place-content: center;
-  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
 
 }
 
@@ -155,7 +157,7 @@ a:active {
     padding: 6px 5px;
     top: 60vh;
     right: 5px;
-    z-index: 1;
+    z-index: 100;
     border-radius: 5px;
 }
 
@@ -483,6 +485,18 @@ footer {
 
 /* mobile section */
 @media(max-width:650px) {
+    .mobile-contact-btn {
+        display: flex;
+    }
+
+    .hero-img a .mobile-btn-margin{
+        margin-top: 10px;
+
+    }
+
+    /* .mobile-contact-btn :nth-last-of-type(2) {
+        margin-top: 10px;
+    } */
 
     .hero-img,
     .hero-overlay {
@@ -543,7 +557,7 @@ footer {
         font-size: 0.8rem;
     }
 
-    footer{
+    footer {
         padding: 5%;
     }
 
@@ -574,15 +588,16 @@ footer {
         text-align: center;
         font-size: 0.9rem;
     }
-    .About-us{
+
+    .About-us {
         margin: 30px 5%;
     }
 
-    .service-card-info{
+    .service-card-info {
         width: 80%;
     }
 
-    .service-card-info-section{
+    .service-card-info-section {
         padding: 0 5%;
     }
 }
@@ -595,9 +610,45 @@ footer {
     }
 
     .mobile-nav {
-        display: block;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 5px 5%;
     }
 
+    .mobile-links {
+        background-color: rgba(255, 255, 255, 0.694);
+        list-style: none;
+        position: absolute;
+        right: 1%;
+        top: 10px;
+        width: 70%;
+        height: 70vh;
+        line-height: 3;
+        padding: 20px 20px;
+        backdrop-filter: blur(8px);
+    }
+    .mobile-links .fa-solid{
+        font-size: 2rem;
+        color: var(--pri-c);
+    }
+
+
+    .mobile-links a {
+        color: var(--pri-c);
+        display: block;
+        font-weight: 500;
+    }
+
+    .mobile-links a:hover {
+        background-color: var(--snd-1);
+        color: white;
+        padding: 0 5px;
+    }
+
+    .mobile-links {
+        display: none;
+    }
 }
 
 /* small mobile view */
@@ -609,5 +660,9 @@ footer {
     .why-us-card {
         width: 150px;
         height: 120px;
+    }
+
+    .hero-overlay {
+        padding: 70px o;
     }
 }

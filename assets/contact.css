@@ -119,9 +119,10 @@ a:active {
     padding: 0 10%;
 }
 
-.hero-overlay h2 {
+.hero-text-contact {
     text-align: center;
     font-size: 4rem;
+    color: white;
 }
 
 main {

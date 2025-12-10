@@ -73,7 +73,7 @@ a:active {
 /* hero section */
 .hero-img {
     background-image: url(images/rear\ \(1\).jpg);
-    height: 80vh;
+    height: auto;
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -85,10 +85,10 @@ a:active {
 
 .hero-overlay {
     background-color: rgba(0, 0, 0, 0.692);
-    height: 80vh;
+    height: auto;
     width: 100%;
     align-content: center;
-    padding: 0 10%;
+    padding: 50px 10%;
 }
 
 .fa-solid {
@@ -498,13 +498,13 @@ footer {
         margin-top: 10px;
     } */
 
-    .hero-img,
+    /* .hero-img,
     .hero-overlay {
-        height: 80vh;
-    }
+        height: 100vh;
+    } */
 
     .hero-overlay {
-        padding: 0 5%;
+        padding: 70px 5%;
 
     }
 
@@ -625,12 +625,12 @@ footer {
         list-style: none;
         position: absolute;
         right: 1%;
-        top: 10px;
-        width: 90%;
+        top: 5px;
+        width: 200px;
         height: 90vh;
         line-height: 3;
         padding: 20px 20px;
-        backdrop-filter: blur(10px);
+        backdrop-filter: blur(40px);
     }
     .mobile-links .fa-solid{
         font-size: 2rem;
@@ -666,10 +666,10 @@ footer {
         height: 120px;
     }
 
-    .hero-overlay {
+    /* .hero-overlay {
         padding: 70px 5%;
-    }
-    .hero-img,.hero-overlay{
-        height: 90vh;
-    }
+    } */
+    /* .hero-img,.hero-overlay{
+        height: auto;
+    } */
 }

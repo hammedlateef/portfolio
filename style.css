@@ -29,12 +29,13 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color: white;
-    padding: 0.5% 10%;
-    margin: 8px 0;
+    padding: 8px 10%;
+    margin:  0;
     box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.247);
     position: sticky;
     z-index: 100;
     top: 0;
+    font-weight: 600;
 
 
 }
@@ -53,7 +54,7 @@ header {
 a {
     text-decoration: none;
     color: unset;
-    font-weight: 200;
+    font-weight: 600;
 
 }
 
@@ -84,7 +85,7 @@ a:active {
 }
 
 .hero-overlay {
-    background-color: rgba(0, 0, 0, 0.692);
+    background-image: linear-gradient(to right, rgba(165, 42, 42, 0.49),#0000ff1c);
     height: auto;
     width: 100%;
     align-content: center;
@@ -401,7 +402,7 @@ h3 {
     justify-items: center;
     background-color: white;
     width: 250px;
-    height: 200px;
+    height: auto;
     /* border-bottom-left-radius: 20%; */
     box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.105);
     transition: all 1s;
@@ -433,7 +434,7 @@ h3 {
 
 
 .call-to-act {
-    border-top: 3px solid var(--pri-c);
+    border-top: 2px solid var(--pri-c);
     padding: 20px;
     display: flex;
     flex-direction: column;

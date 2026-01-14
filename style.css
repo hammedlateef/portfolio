@@ -268,8 +268,9 @@ a:active {
     }
 
     .tools-class div{
-        height: 50px;
+        height: auto;
         width: 200px;
+        padding :10px;
     }
 
     .tools-class div img {

@@ -1,15 +1,13 @@
 //  mobile navition show and hide toggle
 
-let showNav = document.querySelector(".show-nav");
-let hideNav = document.querySelector(".fa-xmark");
+let toggle = document.querySelector(".toggle-bar");
+let hideBar= document.querySelector(".hambuger-cont ul")
 
-showNav.addEventListener("click", () => {
-    document.querySelector(".mobile-links").style.display = "block"
+
+toggle.addEventListener("click", () => {
+    hideBar.classList.toggle("show")
 })
 
-hideNav.addEventListener("click", () => {
-    document.querySelector(".mobile-links").style.display = "none"
-})
 
 // document.querySelectorAll(".close-nav-with-body-click").addEventListener("click", () => {
 //     document.querySelector(".mobile-links").style.display = "none";

@@ -16,12 +16,6 @@
 
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="images/lut-logo.png" type="image/x-icon">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
-        rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
         integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -34,11 +28,6 @@
     <div class="head">
         <video src="images/hero vd (1).mp4" id="hero-vd" loop muted autoplay type="video/mp4" playsinline></video>
 
-
-
-
-
-
         <nav class="desk-navi">
             <div class="nav-logo">
                 <img src="images/lut-logo.png" width="60px" alt="lut-logo">
@@ -46,7 +35,7 @@
 
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="index.html">Portfolio</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
                 <li><a href="#about-sec">About</a></li>
                 <li><a href="#service-sec">Service</a></li>
                 <li><a href="#footer">Contact</a></li>
@@ -54,9 +43,11 @@
             </ul>
 
             <div>
-                <button class="cta">
-                    Get In-touch <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                </button>
+                <a href="mailto:hammeda582@gmail.com">
+                    <button class="cta">
+                        Get In-touch <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </button>
+                </a>
             </div>
         </nav>
 
@@ -69,10 +60,10 @@
                 <div class="toggle-bar"><i class="fa-solid fa-bars"></i></div>
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="index.html">Portfolio</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
                     <li><a href="#about-sec">About</a></li>
                     <li><a href="#service-sec">Service</a></li>
-                    <li><a href="assets/contact.html">Contact</a></li>
+                    <li><a href="#footer">Contact</a></li>
 
                 </ul>
             </div>
@@ -90,58 +81,31 @@
                 sizes.
             </h1>
             <div>
-
-
                 <a href="https://wa.me/+2348164438077">
                     <button class="cta"> <i class="fa-brands fa-whatsapp"></i> WhatsApp</button>
                 </a>
-                <a href="https://wa.me/+2348164438077">
+                <a href="mailto:hammeda582@gmail.com">
                     <button class="cta"> <i class="fa fa-envelope"></i> Email us</button>
                 </a>
-
-
-
             </div>
         </div>
 
-    </div> <br>
+    </div>
 
     <div class="tools-cont">
         <h2>- Technologies we use -</h2> <br>
+        <div class="tools">
+            <img src="images/photoshop.jpeg" alt="">
+            <img src="images/mysql.jpeg" alt="">
+            <img src="images/wordpress.jpeg" alt="">
+            <img src="images/googleads.jpeg" alt="">
+            <img src="images/html.jpeg" alt="">
+            <img src="images/javascript.jpeg" alt="">
+            <img src="images/Corel Logo.jpeg" alt="">
+            <img src="images/php.jpeg" alt="">
+            <img src="images/css.jpeg" alt="">
 
-        <marquee behavior="" direction="right">
-            <div class="tools-class">
-                <div>
-                    <img src="images/googleads.jpeg" alt="">
-                </div>
-                <div>
-                    <img src="images/photoshop.jpeg" alt="">
-                </div>
-                <div>
-                    <img src="images/mern.jpeg" alt="">
-                </div>
-                <div>
-                    <img src="images/javascript.jpeg" alt="">
-                </div>
-                <div>
-                    <img src="images/css.jpeg" alt="">
-                </div>
-                <div>
-                    <img src="images/mysql.jpeg" alt="">
-                </div>
-                <div>
-                    <img src="images/wordpress.jpeg" alt="">
-                </div>
-                <div>
-                    <img src="images/php.jpeg" alt="">
-                </div>
-                <div>
-                    <img src="images/Corel Logo.jpeg" alt="">
-                </div>
-            </div>
-
-
-        </marquee>
+        </div>
     </div>
 
 
@@ -165,7 +129,7 @@
         </div>
 
         <section class="About-us">
-            <h3 id="about-sec">- About-us -</h3>
+            <h2 id="about-sec">- About Us -</h2>
             <p>At <span style="color: blue;">Lutful Digit,</span> We specialize in turning ideas into powerful digital
                 experiences.
                 Through professional web development, creative graphics, and result-driven promotion,
@@ -179,9 +143,9 @@
         </section>
 
         <section class="service-card-info-section">
-            <h3 id="service-sec">- Our services -</h3>
+            <h2 id="service-sec"> - Our services -</h2> <br>
             <div>
-                <h4 style="text-align: center;">We are dedicated to serve you all time on:</h4>
+                <h4 style="text-align: center;">We are dedicated to serve you all time on:</h4> <br>
                 <div class="service-card">
 
                     <div class="service-card-info">
@@ -235,6 +199,16 @@
                         </p>
                     </div>
 
+                    <div class="service-card-info">
+                        <div class="top-info">
+                            <i class="fa-solid fa-pen-nib" style="color: white;"></i>
+                        </div> <br>
+                        <h4>Branding & Graphic Design</h4> <br>
+                        <p>Logo design, brand identity,
+                            social media creatives, and stunning visuals that make your business stand out.
+                        </p>
+                    </div>
+
                 </div>
             </div>
         </section>
@@ -242,7 +216,7 @@
 
         <!-- portfolio section -->
 
-        <section class="portfolio-section">
+        <section class="portfolio-section" id="portfolio">
 
             <div class="portfolio-container">
 
@@ -412,9 +386,12 @@
                     and thrive.
                 </p> <br>
                 <div>
-                    <button class="cta" style="color: #0000FF;">
-                        Get In-touch <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                    </button>
+                    <a href="mailto:hammeda582@gmail.com">
+                        <button class="cta" style="color: #0000FF;">
+                            Get In-touch <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </button>
+                    </a>
+
                 </div>
             </div>
 
@@ -442,19 +419,9 @@
                 <h4><a href="index.html">Home</a></h4>
                 <h4> <a href="#about-sec">About</a></h4>
                 <h4> <a href="#service-sec">Service</a></h4>
-                <h4> <a href="assets/contact.html">Contact</a></h4>
+                <h4> <a href="#portfolio">portfolio</a></h4>
+                <h4> <a href="#">Contact</a></h4>
             </div>
-
-            <!-- <div>
-                <h4 id="subscribe-text" style="color: blue;">Subscribe to <br> our Newsletter
-                    <i class="fa-solid fa-caret-down" style="color: white;"></i>
-                </h4>
-                <br>
-                <form action="">
-                    <input type="email">
-                    <button>Subscribe</button>
-                </form>
-            </div> -->
 
             <div>
                 <i class="fa-solid fa-location-dot" style="font-size: 0.7rem;"></i> <b> Address:</b> Lagos, Nigeria <br>

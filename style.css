@@ -316,27 +316,28 @@ h2 {
     font-size: 1.2rem;
     position: fixed;
     padding: 6px 5px;
-    top: 60vh;
+    top: 70vh;
     right: 5px;
     z-index: 100;
     border-radius: 5px;
 }
 
 .About-us p::first-letter {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
 
 }
 
 .About-us {
     display: flex;
     margin: 50px 10%;
-    line-height: 30px;
+    line-height: 25px;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     row-gap: 20px;
     text-align: center;
     margin-bottom: 20px;
+    font-size: 1.2rem;
 }
 
 
@@ -506,6 +507,19 @@ h2 {
     color: #ffffff;
     padding: 9px 10px;
     border-radius: 8px;
+}
+
+.graphics-portfolio-grid{
+    display: flex;
+    white-space: nowrap;
+    background-color: unset;
+    gap: 20px;
+    overflow: hidden;
+}
+
+.graphics-portfolio-grid:hover{
+    overflow-x: auto;
+    scrollbar-width: thin;
 }
 
 /* RESPONSIVE */

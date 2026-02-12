@@ -31,8 +31,6 @@ body {
     color: #fff;
     margin-bottom: 20px;
     background: linear-gradient(to right,var(--pri-c),black);
-    border-bottom-right-radius: 70px;
-    border-bottom-left-radius: 70px;
 
 }
 
@@ -41,9 +39,6 @@ body {
     height: 100vh;
     object-fit: cover;
     background-repeat: no-repeat;
-    border-bottom-right-radius: 70px;
-    border-bottom-left-radius: 70px;
-
 }
 
 .desk-navi {
@@ -58,10 +53,6 @@ body {
     z-index: 100;
 }
 
-/* .desk-navi button {
-    position: relative;
-    z-index: 100;
-} */
 
 .cta {
     padding: 12px;

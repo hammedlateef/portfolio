@@ -30,7 +30,7 @@ body {
     align-items: center;
     color: #fff;
     margin-bottom: 20px;
-    background-color: black;
+    background: linear-gradient(to right,var(--pri-c),black);
     border-bottom-right-radius: 70px;
     border-bottom-left-radius: 70px;
 
@@ -514,13 +514,10 @@ h2 {
     white-space: nowrap;
     background-color: unset;
     gap: 20px;
-    overflow: hidden;
-}
-
-.graphics-portfolio-grid:hover{
     overflow-x: auto;
     scrollbar-width: thin;
 }
+
 
 /* RESPONSIVE */
 @media (max-width: 1000px) {
